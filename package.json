@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@types/imap-simple": "^4.2.10",
+    "dotenv": "^17.2.1",
+    "imap-simple": "^5.1.0",
+    "imapflow": "^1.0.194",
+    "mailparser": "^3.7.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^24.3.0"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/extractURL.spec.ts"
+  }
+}

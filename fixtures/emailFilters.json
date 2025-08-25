@@ -1,0 +1,13 @@
+{
+  "recipientEmail": "cpdsignup.wt.dependent+20251@gmail.com",
+  "subjectKeyword": "Verify your email",
+  "urlKeyword": "verify",
+  "timeoutSeconds": 60,
+  "pollIntervalMs": 3000,
+  "options": {
+    "sinceMs": 86400000,
+    "unreadOnly": false,
+    "limit": 100,
+    "mailbox": "INBOX"
+  }
+}
